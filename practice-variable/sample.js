@@ -1,5 +1,4 @@
-for (let i = 0; i < 10; i++) {     
-  console.log(i) 
+function addString(strA){
+  let addStr = "Hello " + strA;
+  return addStr;
 }
-
-console.log(i)
